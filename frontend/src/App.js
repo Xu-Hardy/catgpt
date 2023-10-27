@@ -3,7 +3,7 @@ import TitleComponent from './TitleComponent';
 import socketIOClient from "socket.io-client";
 import './App.css';
 
-const ENDPOINT = "http://localhost:5001";
+const ENDPOINT = "https://catgptflask.onrender.com";
 
 function App() {
     const [message, setMessage] = useState("");
