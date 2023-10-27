@@ -22,7 +22,7 @@ def handle_message(message):
     cnt = random.randint(1, 10)
     print('Received message:', message)
     message = "你的消息是：" + message
-    message = "Meow! " * cnt
+    message = "Meow～ " * cnt
     # For this example, we'll just echo the received message back to the client
     socketio.emit('message', message)
 
